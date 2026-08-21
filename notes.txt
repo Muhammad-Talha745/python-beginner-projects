@@ -1,0 +1,35 @@
+# Create
+student = {
+    "name": "Ali",
+    "age": 15
+}
+
+# Access
+student["name"]
+
+# Add
+student["city"] = "Lahore"
+
+# Change
+student["age"] = 16
+
+# Get keys
+student.keys()
+
+# Get values
+student.values()
+
+# Get key-value pairs
+student.items()
+
+# Safe access
+student.get("phone", "Not found")
+
+# Remove a specific key
+student.pop("city")
+
+# Remove last key-value pair
+student.popitem()
+
+# Add/update another dictionary
+student.update({"grade": "A"})
