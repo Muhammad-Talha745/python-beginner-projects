@@ -1,6 +1,6 @@
 name = input("Enter your name:")
 age = int(input("Enter your age:"))
-fav_sub = input("Enter you favorite subject:")
+fav_sub = input("Enter your favorite subject:")
 
 name = name.capitalize()
 fav_sub = fav_sub.capitalize()
