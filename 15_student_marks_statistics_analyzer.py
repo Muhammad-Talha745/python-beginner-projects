@@ -25,7 +25,6 @@ for mark in marks:
     elif mark > second_highest_mark and mark != highest_mark:
         second_highest_mark = mark
 
-
 average = total / student_count
 
 above_average = 0
@@ -42,6 +41,7 @@ for mark in marks:
     if mark >= 70:
         seventy_or_above = seventy_or_above + 1
 
+pass_percentage = (passed / student_count) * 100
 
 print("Total:", total)
 print("Passed:", passed)
@@ -52,3 +52,4 @@ print("Above Average:", above_average)
 print("Second Highest:", second_highest_mark)
 print("Below Average:", below_average)
 print("70 or Above:", seventy_or_above)
+print("Pass Percentage:", pass_percentage)
