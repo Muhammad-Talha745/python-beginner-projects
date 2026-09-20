@@ -1,11 +1,7 @@
 name = input("Customer Name: ").capitalize()
-
 game = input("Game Name: ").capitalize()
-
 price = int(input("Game price: "))
-
 ava_bal = int(input("Available balance: "))
-
 membership = input("Membership? (yes/no): ").lower()
 
 discount = 0
