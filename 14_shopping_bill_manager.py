@@ -39,7 +39,6 @@ else:
     discount = 0
 
 final_bill = total - discount
-
 expensive_items = 0
 
 for selected_item in selected_items:
