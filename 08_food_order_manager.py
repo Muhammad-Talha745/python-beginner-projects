@@ -1,9 +1,7 @@
 name = input("Enter your name: ")
-
 food1 = input("Enter the name of first food you ordered: ")
 food2 = input("Enter the name of second food you ordered: ")
 food3 = input("Enter the name of third food you ordered: ")
-
 price1 = int(input("Enter the price of first food you ordered: "))
 price2 = int(input("Enter the price of second food you ordered: "))
 price3 = int(input("Enter the price of third food you ordered: "))
@@ -21,11 +19,9 @@ avg = total / 3
 
 print("RECEIPT")
 print("Name:", name)
-
 print(food1, "Rs.", price1)
 print(food2, "Rs.", price2)
 print(food3, "Rs.", price3)
-
 print("Total Bill:", total)
 print("Average Item Price:", avg)
 print("Most Expensive:", max(prices))
