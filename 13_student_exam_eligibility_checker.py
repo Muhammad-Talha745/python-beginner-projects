@@ -1,9 +1,6 @@
 name = input("Enter your name: ").capitalize()
-
 marks = int(input("Enter your marks: "))
-
 attendance = int(input("Enter your attendance percentage: "))
-
 assignment = input("Assignment is completed? (yes/no): ").lower()
 
 print("Name:", name)
