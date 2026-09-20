@@ -1,9 +1,7 @@
 name = input("Enter your name: ")
-
 game1 = input("Enter the name of first game: ")
 game2 = input("Enter the name of second game: ")
 game3 = input("Enter the name of third game: ")
-
 price1 = int(input("Enter the price of first game: "))
 price2 = int(input("Enter the price of second game: "))
 price3 = int(input("Enter the price of third game: "))
@@ -22,11 +20,9 @@ avg = total / 3
 print("Customer Name:", name)
 print("GAME STORE")
 print("Games:")
-
 print(game1, "Rs.", price1)
 print(game2, "Rs.", price2)
 print(game3, "Rs.", price3)
-
 print("Total:", total)
 print("Average:", avg)
 print("Most Expensive:", max(prices))
@@ -36,7 +32,6 @@ new_game = input("Enter the new game name: ")
 new_price = int(input("Enter the price of new game: "))
 
 new_game = new_game.capitalize()
-
 games.append(new_game)
 prices.append(new_price)
 
