@@ -52,6 +52,7 @@ for price in prices:
     if price > 30000:
         expensive_games = expensive_games + 1
 
+
 print("Updated Games:", games)
 print("Updated Prices:", prices)
 print("Updated Total:", total)
