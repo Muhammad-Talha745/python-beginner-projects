@@ -23,4 +23,5 @@ if student["age"] >= 18:
 else:
     student["status"] = "Under 18"
 
+
 print(student)
