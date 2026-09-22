@@ -18,6 +18,7 @@ elif tip_percentage >= 10:
 else:
     tip_rating = "Low Tip"
 
+
 print(f"Restaurant Name: {rest_name}")
 print(f"Total Bill: ${tot_bill:.2f}")
 print(f"Tip Amount: ${tip_amount:.2f}")
