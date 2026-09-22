@@ -133,7 +133,6 @@ for student in students:
     if student["Average"] < lowest_average:
         lowest_average = student["Average"]
 
-
 print("\n===== CLASS STATISTICS =====")
 print("Total Students:", student_count)
 print("Passed Students:", passed_students)
