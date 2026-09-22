@@ -6,6 +6,7 @@ movie5 = input("Enter the name of your fifth favorite movie: ")
 
 movies = [movie1, movie2, movie3, movie4, movie5]
 
+
 print(movies)
 print(movies[0])
 print(movies[4])
