@@ -51,6 +51,7 @@ for selected_item in selected_items:
     print("Item:", selected_item)
     print("Price:", item[selected_item])
 
+
 print("Total Bill:", total)
 print("Discount:", discount)
 print("Total Bill After Discount:", final_bill)
