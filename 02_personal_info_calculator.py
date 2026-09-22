@@ -16,6 +16,7 @@ if fav_num % 2 == 0:
 else:
     number_type = "Odd"
 
+
 print(
     f"My name is {name} (is all digits: {is_name}), I am {age} years old, "
     f"and in five years I will be {age_5} years old, and my favourite number "
