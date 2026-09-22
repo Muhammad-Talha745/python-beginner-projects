@@ -62,6 +62,7 @@ elif age < 18:
 else:
     age_category = "Adult"
 
+
 print(f"Age Category: {age_category}")
 print(
     f"Name: {full_name}, Age: {age}, "
