@@ -29,6 +29,7 @@ for mark in marks:
     else:
         failed_subjects = failed_subjects + 1
 
+
 print("Student Information")
 print(f"Name: {name}")
 print(f"Age: {age}")
