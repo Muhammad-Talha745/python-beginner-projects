@@ -52,6 +52,7 @@ for price in prices:
     if price >= 500:
         expensive_foods = expensive_foods + 1
 
+
 print("Updated Foods:", foods)
 print("Updated Prices:", prices)
 print("Updated Total:", total_u)
