@@ -9,6 +9,7 @@ fav_foods2 = ("Chicken", "Beef", "Mutton")
 
 final_foods = fav_foods + fav_foods2
 
+
 print(final_foods)
 print("Pizza Count:", final_foods.count("Pizza"))
 print("Pizza Position:", final_foods.index("Pizza"))
