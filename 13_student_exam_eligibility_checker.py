@@ -36,4 +36,5 @@ elif marks >= 50:
 else:
     print("Failed")
 
+
 print("Final Eligibility Status:", eligibility_status)
