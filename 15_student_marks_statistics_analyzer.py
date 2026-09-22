@@ -43,7 +43,6 @@ for mark in marks:
 
 pass_percentage = (passed / student_count) * 100
 
-
 print("Total:", total)
 print("Passed:", passed)
 print("Highest Mark:", highest_mark)
