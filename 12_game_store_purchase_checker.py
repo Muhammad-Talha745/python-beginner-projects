@@ -35,6 +35,7 @@ else:
     purchase_status = "Balance Too Low"
     remaining_balance = ava_bal
 
+
 print(f"Game: {game}")
 print(f"Discount: {discount}")
 print(f"Final Price: {final_price}")
