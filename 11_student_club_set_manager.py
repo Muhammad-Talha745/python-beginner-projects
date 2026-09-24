@@ -1,16 +1,43 @@
-python_club = {"Ali", "Ahmed", "Sara", "Hamza", "Ali"}
-ai_club = {"Sara", "Hamza", "Usman", "Ayesha"}
+python_member1 = input("Enter Python Club member 1: ").title()
+python_member2 = input("Enter Python Club member 2: ").title()
+python_member3 = input("Enter Python Club member 3: ").title()
+python_member4 = input("Enter Python Club member 4: ").title()
+python_member5 = input("Enter Python Club member 5: ").title()
 
-print(python_club)
-print(ai_club)
+python_club = {
+    python_member1,
+    python_member2,
+    python_member3,
+    python_member4,
+    python_member5,
+}
+
+ai_member1 = input("Enter AI Club member 1: ").title()
+ai_member2 = input("Enter AI Club member 2: ").title()
+ai_member3 = input("Enter AI Club member 3: ").title()
+ai_member4 = input("Enter AI Club member 4: ").title()
+
+ai_club = {ai_member1, ai_member2, ai_member3, ai_member4}
+
+print("Python Club:", python_club)
+print("AI Club:", ai_club)
 print("Python Club Members:", len(python_club))
 print("AI Club Members:", len(ai_club))
 
-python_club.add("Bilal")
-python_club.remove("Ahmed")
+new_member = input("Enter a new Python Club member: ").title()
+
+python_club.add(new_member)
+
+remove_member = input("Enter a Python Club member to remove: ").title()
+
+if remove_member in python_club:
+    python_club.remove(remove_member)
 
 print("Updated Python Club:", python_club)
-print("Is Sara in Python Club:", "Sara" in python_club)
+
+search_member = input("Enter a member to check: ").title()
+
+print("Is member in Python Club:", search_member in python_club)
 
 common_members = python_club.intersection(ai_club)
 
@@ -30,13 +57,15 @@ python_copy.intersection_update(ai_club)
 print("Python Club Copy After Intersection Update:", python_copy)
 print("Are Clubs Disjoint:", python_club.isdisjoint(ai_club))
 
-small_set = {"Sara", "Hamza"}
+small_member1 = input("\nEnter a member for the small set: ").title()
+small_member2 = input("Enter another member for the small set: ").title()
+
+small_set = {small_member1, small_member2}
 
 print("Small Set Is Subset:", small_set.issubset(ai_club))
 print("AI Club Is Superset:", ai_club.issuperset(small_set))
 
 common_member_count = 0
-
 
 for member in common_members:
     common_member_count = common_member_count + 1
